@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  display: block;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 450px;
+  margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
+.header {
+  background-color: #ff0000;
+  height: 100px;
+  width: 400px;
+  position: absolute;
+}
+
+.boxs {
+  background-color:#a9004b;
+  width: 40px;
+  height: 40px;
+  float: right;
+  right: 20px;
+  position: relative;
+  border: solid  10px #FFFFFF;
+
+  
+}
+
+.top-1 {
+  position: relative;
+  top:20px;
+  bottom:10px;
+  
+}
+
+
+.top-2 {
+  position: relative;
+  top:20px;
+  bottom: 20px;
+
+ 
+ 
+
+}
+
+.top-3 {
+  position: relative;
+  top:20px;
+  bottom:30px;
+  
+  
+}
+
+
+
+.main-left {
+  width: 150px;
+  height: 250px;
+  float: left;
+  background-color: #00ff51;
+  clear: both;
+}
+
+.main-right {
+  height: 250px;
+  width: 250px;
+  background-color: #8c2727;
+  float: left;
+  
+}
+
+.box{
+  background-color: #ff863f;
+  width: 140px;
+  height: 40px;
+  position: absolute;
+  left: 40px;
+  right: 60px;
+  border:5px solid #FFFFFF ;
+  display: inline-block;
+}
+
+.box-a{
+  position: relative;
+  top: 60px;
+  bottom:5px;
+ 
+}
+
+ 
+
+.box-b{
+  position: relative;
+  top:65px;
+  bottom:10px;
+}
+
+.box-c{
+  position: relative;
+  top: 70px;
+  bottom: 20px;
+}
+
+
+
+.footer {
+  height: 100px;
+  background-color: #ffd000;
+  width: 400px;
+  clear: both;
+}
+
+
