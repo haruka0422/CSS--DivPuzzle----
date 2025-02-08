@@ -1,17 +1,18 @@
-body {
+body {background-color: #000;
   margin: 0;
   display: block;
 }
 
 .wrapper {
-  position: absolute;
+  /* position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   width: 400px;
   height: 450px;
-  margin: auto;
+  margin: auto; */
+  margin: 10px;
 }
 
 .clearfix::after {
@@ -21,11 +22,16 @@ body {
     
 }
 
-.header {
+.header-red {
   background-color: #ff0000;
   height: 100px;
   width: 400px;
   position: absolute;
+}
+
+.header-white {
+  background-color: #FFFFFF;
+  padding: 10px;
 }
 
 .boxs {
@@ -35,36 +41,11 @@ body {
   float: right;
   right: 20px;
   position: relative;
-  border: solid  10px #FFFFFF;
+  margin: 10px;
 
   
 }
 
-.top-1 {
-  position: relative;
-  top:20px;
-  bottom:10px;
-  
-}
-
-
-.top-2 {
-  position: relative;
-  top:20px;
-  bottom: 20px;
-
- 
- 
-
-}
-
-.top-3 {
-  position: relative;
-  top:20px;
-  bottom:30px;
-  
-  
-}
 
 
 
