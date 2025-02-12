@@ -4,14 +4,6 @@ body {
 }
 
 .wrapper {
-  /* position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 400px;
-  height: 450px;
-  margin: auto; */
   margin: 10px;
 }
 
@@ -80,27 +72,6 @@ body {
     margin-top: 40px;
     margin-left: 40px;
   }
-
-/* .box-a{
-  position: relative;
-  top: 60px;
-  bottom:5px;
- 
-}
-
- 
-
-.box-b{
-  position: relative;
-  top:65px;
-  bottom:10px;
-}
-
-.box-c{
-  position: relative;
-  top: 70px;
-  bottom: 20px;
-} */
 
 
 
